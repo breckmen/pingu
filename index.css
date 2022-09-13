@@ -269,3 +269,21 @@
     position: absolute;
     margin-top: -58px;
   }
+
+  .button {
+    width: 5%;
+    height: 5%;
+    margin-left: 50px;
+    animation-name: buttonmove;
+    animation-duration: 2s;
+    background-color: transparent;
+    border-color: red;
+    border-radius: 50%;
+    font-weight: bolder;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  }
+
+  @keyframes buttonmove {
+    from {transform: translateX(-150px);}
+    to {transform: translateX(0);}
+  }
